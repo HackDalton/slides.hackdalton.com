@@ -1,7 +1,9 @@
 import * as React from 'react'
-import "./index.styl"
 import Title from './Title'
 import Slides, { slide } from './Slides'
+
+import "./index.styl"
+import "bulma/css/bulma.min.css"
 
 export default function App() {
 	const slides: slide[] = [
