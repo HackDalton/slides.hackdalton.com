@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Deck, Slide, Heading, Text, FlexBox, Box, UnorderedList, ListItem, Link, Table, Markdown, OrderedList, CodeSpan, Quote } from 'spectacle';
+import { Deck, Slide, Heading, Text, FlexBox, Box, UnorderedList, ListItem, Link, Markdown, OrderedList, CodeSpan, Quote } from 'spectacle';
 import theme from './theme'
 import BottomBar from './BottomBar'
 
