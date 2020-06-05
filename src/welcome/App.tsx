@@ -1,9 +1,10 @@
 import * as React from 'react';
 import { Deck, Slide, Heading, Text, FlexBox, Box, UnorderedList, ListItem, Link, Markdown, OrderedList, CodeSpan, Quote } from 'spectacle';
-import theme from './theme'
+import theme from '../theme.ts'
 import BottomBar from './BottomBar'
 
 import "./index.styl"
+import Timer from './Timer';
 
 function App() {
 	return (
@@ -27,7 +28,7 @@ function App() {
 					<Markdown>
 						{`
 # Today's agenda
-All times are in EDT (UTC-4)
+All times are in EDT (UTC-4). Go to hackdalton.com/agenda for your timezone and the current EDT time!
 
 | Time | Event | Location |
 |----------|--------------------|---------------------|
@@ -54,10 +55,10 @@ All times are in EDT (UTC-4)
 						<ListItem>Created to help get people together digitally during the quarantine.</ListItem>
 					</UnorderedList>
 				</Slide>
-				<Slide>
+				{/* <Slide>
 					<Heading>Guest Problem Writers</Heading>
 					<Text>TODO: Write slide</Text>
-				</Slide>
+				</Slide> */}
 				<Slide>
 					<Heading>Sponsors</Heading>
 					<Text>HackDalton is lucky enough to be supported by these incredible companies.</Text>
@@ -99,7 +100,7 @@ All times are in EDT (UTC-4)
 					<UnorderedList>
 						<ListItem>We tried to make the problems as "unbreakable" as we could; however, due to the nature of the exploit, some of them are breakable.</ListItem>
 						<ListItem>If you break a problem, please let us know on help.hackdalton.com so we can fix it for everyone else</ListItem>
-						<ListItem>Breakable problems automatically reset every hour.</ListItem>
+						<ListItem>Breakable problems automatically reset every hour on the hour.</ListItem>
 					</UnorderedList>
 				</Slide>
 				<Slide>
@@ -120,20 +121,10 @@ All times are in EDT (UTC-4)
 					<Text>You're more than welcome to publish your own solutions following the competiton, or even reuse the problems in your own competitions!</Text>
 				</Slide>
 				<Slide>
-					<Heading>Technologies (Problems)</Heading>
+					<Heading>Shoutouts</Heading>
 					<UnorderedList>
-						<ListItem><Link href="https://docker.io">Docker</Link></ListItem>
-						<ListItem>An assortment of programming languages</ListItem>
-					</UnorderedList>
-				</Slide>
-				<Slide>
-					<Heading>Technologies (Administration)</Heading>
-					<UnorderedList>
-						<ListItem><Link href="https://jekyllrb.com">Jekyll</Link> (hackdalton.com)</ListItem>
-						<ListItem><Link href="https://github.com/CTFd/CTFd">CTFd</Link> (game.hackdalton.com)</ListItem>
-						<ListItem><Link href="https://discourse.org">Discourse</Link> (help.hackdalton.com)</ListItem>
-						<ListItem><Link href="https://willbarkof.dev/cadence">Cadence</Link> (live.hackdalton.com)</ListItem>
-						<ListItem><Link href="https://formidable.com/open-source/spectacle/">Spectacle</Link> (slides.hackdalton.com)</ListItem>
+						<ListItem>Adam Boesky (Problem Tester)</ListItem>
+						<ListItem>Charlie Stewert (Advisor)</ListItem>
 					</UnorderedList>
 				</Slide>
 				<Slide>
@@ -142,6 +133,13 @@ All times are in EDT (UTC-4)
 							<Quote>Imagination is more important than knowledge</Quote>
 							<Text>&mdash; Albert Einstein</Text>
 						</Box>
+					</FlexBox>
+				</Slide>
+				<Slide >
+					<FlexBox alignContent="center" flexDirection="column" justifyContent="center" width="100%" height="100%">
+						<Text textAlign="center">HackDalton starts in</Text>
+						<Heading color="quaternary"><Timer /></Heading>
+						<Heading color="secondary">Good Luck!</Heading>
 					</FlexBox>
 				</Slide>
 			</Deck>

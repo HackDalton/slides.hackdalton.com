@@ -1,23 +1,23 @@
 {
-  "name": "hi.hackdalton.com",
+  "name": "slides.hackdalton.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/welcome/index.html src/index.html",
-    "build": "parcel build src/welcome/index.html src/index.html"
+    "start": "parcel src/welcome/index.html src/infrastructure/index.html src/index.html",
+    "build": "parcel build src/welcome/index.html src/infrastructure/index.html src/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HackDalton/hi.hackdalton.com.git"
+    "url": "git+https://github.com/HackDalton/slides.hackdalton.com.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HackDalton/hi.hackdalton.com/issues"
+    "url": "https://github.com/HackDalton/slides.hackdalton.com/issues"
   },
-  "homepage": "https://github.com/HackDalton/hi.hackdalton.com#readme",
+  "homepage": "https://github.com/HackDalton/slides.hackdalton.com#readme",
   "devDependencies": {
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
