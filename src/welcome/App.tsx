@@ -71,7 +71,6 @@ All times are in EDT (UTC-4). Go to hackdalton.com/agenda for your timezone and 
 						<ListItem>Stay in bounds.</ListItem>
 						<ListItem>Flags are in the format <CodeSpan>hackDalton{'{...}'}</CodeSpan></ListItem>
 						<ListItem>Easier problems unlock more difficult problems.</ListItem>
-						<ListItem>Hints cost points, but free help is available (more about this later)</ListItem>
 					</OrderedList>
 				</Slide>
 				<Slide>
@@ -107,11 +106,10 @@ All times are in EDT (UTC-4). Go to hackdalton.com/agenda for your timezone and 
 					<Heading>Stuck?</Heading>
 					<Text>You have options.</Text>
 					<UnorderedList>
-						<ListItem>Ask for help on help.hackdalton.com (free, recommended)</ListItem>
+						<ListItem>Ask for help on help.hackdalton.com</ListItem>
 						<UnorderedList>
 							<ListItem>help.hackdalton.com uses a separate account system than game.hackdalton.com, so go create an account now!</ListItem>
 						</UnorderedList>
-						<ListItem>Use a hint (costs points)</ListItem>
 					</UnorderedList>
 				</Slide>
 				<Slide>
