@@ -23,7 +23,7 @@ export default function App() {
 		<section className="section">
 			<div className="container">
 				<Message modifier="is-link">
-					<strong>Curious about how these slides work?</strong>
+					<strong>Curious about how these slides work? </strong>
 					They're built on <a href="https://reactjs.org">React</a> and <a href="https://typescriptlang.org">TypeScript</a>, and
 					use <a href="https://formidable.com/open-source/spectacle/">Spectacle</a>. This page also uses <a href="https://bulma.io">Bulma</a>.
 					They will also be open-sourced as the competition progresses <a href="https://github.com/HackDalton/slides.hackdalton.com">on GitHub</a>.
