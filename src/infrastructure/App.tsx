@@ -111,13 +111,9 @@ function App() {
 						<UnorderedList>
 							<ListItem><Link href="https://youtube.com/live">youtube.com/live</Link></ListItem>
 						</UnorderedList>
-						<ListItem>Slido</ListItem>
+						<ListItem>Zoom</ListItem>
 						<UnorderedList>
-							<ListItem><Link href="https://sli.do">sli.do</Link></ListItem>
-						</UnorderedList>
-						<ListItem>Streamlabs OBS (OSS!)</ListItem>
-						<UnorderedList>
-							<ListItem><Link href="https://streamlabs.com">streamlabs.com</Link></ListItem>
+							<ListItem><Link href="https://zoom.us">zoom.us</Link></ListItem>
 						</UnorderedList>
 					</UnorderedList>
 				</Slide>
@@ -129,6 +125,12 @@ function App() {
 						<ListItem>Stylus (OSS!) <Link href="https://stylus-lang.com/">stylus-lang.com</Link></ListItem>
 						<ListItem>TypeScript (OSS!) <Link href="https://typescriptlang.org/">typescriptlang.org</Link></ListItem>
 						<ListItem>Parcel (OSS!) <Link href="https://parceljs.org">parceljs.org</Link></ListItem>
+					</UnorderedList>
+				</Slide>
+				<Slide>
+					<Heading>Emails</Heading>
+					<UnorderedList>
+						<ListItem>SimpleMailer (OSS!) <Link href="https://willbarkoff.dev/simplemailer">willbarkoff.dev/simplemailer</Link></ListItem>
 					</UnorderedList>
 				</Slide>
 				<Slide>
@@ -153,6 +155,7 @@ function App() {
 							<ListItem>C</ListItem>
 							<ListItem>Plenty of others</ListItem>
 						</UnorderedList>
+						<ListItem>Used airport (willbarkoff.dev/airport) to redirect stdin and stdout to network ports</ListItem>
 					</UnorderedList>
 				</Slide>
 				<Slide>
