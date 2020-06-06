@@ -82,7 +82,7 @@ function App() {
 							<ListItem><CodeSpan>hackdalton-problems</CodeSpan></ListItem>
 						</UnorderedList>
 						<ListItem>Everything static runs on Netlify (like this deck!)</ListItem>
-						<ListItem>Wanted to keep the problems seperate from everything else</ListItem>
+						<ListItem>Wanted to keep the problems separate from everything else</ListItem>
 					</UnorderedList>
 				</Slide>
 				<Slide>
@@ -192,7 +192,7 @@ hackDalton{th4nks_f0r_l3tt1ng_m3_bl4b_0n_u1y0Z4oFSY}`}
 				<Slide>
 					<Heading>Writing a successful problem</Heading>
 					<UnorderedList>
-						<ListItem>Think of a vunerability</ListItem>
+						<ListItem>Think of a vulnerability</ListItem>
 						<ListItem>Use technologies that you know well (go!)</ListItem>
 						<ListItem>Come up with some sort of backstory</ListItem>
 						<ListItem>Base it on real-world exploits (XSS, SQL-injection, client-side security), NOT things just made up for the problem.</ListItem>
@@ -202,7 +202,7 @@ hackDalton{th4nks_f0r_l3tt1ng_m3_bl4b_0n_u1y0Z4oFSY}`}
 				<Slide>
 					<Heading>Things that I learned</Heading>
 					<UnorderedList>
-						<ListItem>It's suprisingly hard to write insecure code.</ListItem>
+						<ListItem>It's surprisingly hard to write insecure code.</ListItem>
 						<UnorderedList>
 							<ListItem>Modern libraries (Flask, SQL come to mind) try to prevent you from doing insecure things</ListItem>
 							<ListItem>You often have to tip-toe around things that prevent you from writing insecure code</ListItem>

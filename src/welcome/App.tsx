@@ -14,7 +14,7 @@ function App() {
 					<FlexBox alignContent="center" justifyContent="center" width="100%" height="100%">
 						<Box>
 							<Heading color="white">Welcome to HackDalton!</Heading>
-							<Text color="white" textAlign="center">A programming and computer science competition for high schoolers. </Text>
+							<Text color="white" textAlign="center">A programming and computer science competition for high schoolers.</Text>
 						</Box>
 					</FlexBox>
 				</Slide>
@@ -43,7 +43,7 @@ All times are in EDT (UTC-4). Go to hackdalton.com/agenda for your timezone and 
 					<Heading>About me!</Heading>
 					<UnorderedList>
 						<ListItem>I'm William Barkoff, the organizer of HackDalton</ListItem>
-						<ListItem>I live in New York City, and I'm a seinor at Dalton (hence HackDalton).</ListItem>
+						<ListItem>I live in New York City, and I'm a senior at Dalton (hence HackDalton).</ListItem>
 						<ListItem>I wrote most of the problems myself, but the rest were written by our amazing guest problem writers (More about that later)</ListItem>
 						<ListItem>Though I've participated in many hackathons and programming competitions, this is my first time running one!</ListItem>
 					</UnorderedList>
@@ -62,7 +62,7 @@ All times are in EDT (UTC-4). Go to hackdalton.com/agenda for your timezone and 
 				<Slide>
 					<Heading>Sponsors</Heading>
 					<Text>HackDalton is lucky enough to be supported by these incredible companies.</Text>
-					<iframe src="https://hackdalton.com/sponsors-embed.html" frameBorder="0"></iframe>
+					<iframe src="https://hackdalton.com/sponsors-embed.html" frameBorder="0" scrolling="no"></iframe>
 				</Slide>
 				<Slide>
 					<Heading>Rules</Heading>
@@ -88,8 +88,8 @@ All times are in EDT (UTC-4). Go to hackdalton.com/agenda for your timezone and 
 						<ListItem>Problems fall into 3 categories.</ListItem>
 						<UnorderedList>
 							<ListItem>General Knowledge</ListItem>
-							<ListItem>Web Expoiltation</ListItem>
-							<ListItem>Reverse Engineering &amp; Reverse Engineering</ListItem>
+							<ListItem>Web Exploitation</ListItem>
+							<ListItem>Binary Exploitation &amp; Reverse Engineering</ListItem>
 						</UnorderedList>
 						<ListItem>Problems are assigned point values based on difficulty.</ListItem>
 						<ListItem>Easier problems unlock harder ones, even across categories.</ListItem>
@@ -107,9 +107,9 @@ All times are in EDT (UTC-4). Go to hackdalton.com/agenda for your timezone and 
 					<Heading>Stuck?</Heading>
 					<Text>You have options.</Text>
 					<UnorderedList>
-						<ListItem>Ask for help on help.hackdalton.com (free, reccomended)</ListItem>
+						<ListItem>Ask for help on help.hackdalton.com (free, recommended)</ListItem>
 						<UnorderedList>
-							<ListItem>help.hackdalton.com uses a seperate account system than game.hackdalton.com, so go create an account now!</ListItem>
+							<ListItem>help.hackdalton.com uses a separate account system than game.hackdalton.com, so go create an account now!</ListItem>
 						</UnorderedList>
 						<ListItem>Use a hint (costs points)</ListItem>
 					</UnorderedList>
@@ -117,7 +117,7 @@ All times are in EDT (UTC-4). Go to hackdalton.com/agenda for your timezone and 
 				<Slide>
 					<Heading>Solutions</Heading>
 					<Text>All of the problems will be open sourced following the competition, along with writeups of their intended solutions.</Text>
-					<Link href="https://github.com/hackdalton">github.com/hackdalton</Link>
+					<Link href="https://github.com/HackDalton">github.com/HackDalton</Link>
 					<Text>You're more than welcome to publish your own solutions following the competiton, or even reuse the problems in your own competitions!</Text>
 				</Slide>
 				<Slide>
