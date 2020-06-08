@@ -16,6 +16,14 @@ export default function App() {
 			title: "Lunchtime Infrastructure Chat",
 			url: "/infrastructure/index.html"
 		},
+		{
+			title: "Closing Remarks",
+			url: "/closing/index.html"
+		},
+		{
+			title: "Senior Initiative Presentation",
+			url: "/si/index.html"
+		}
 	]
 
 	return <div>

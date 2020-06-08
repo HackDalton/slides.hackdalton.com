@@ -8,7 +8,7 @@ function App() {
 	return (
 		<div>
 			<Deck theme={theme} >
-				<Slide backgroundImage="url(https://hackdalton.com/assets/img/header-with-blue.jpg)">
+				<Slide backgroundImage="url(https://2020.hackdalton.com/assets/img/header-with-blue.jpg)">
 					<FlexBox alignContent="center" justifyContent="center" width="100%" height="100%">
 						<Box>
 							<Heading color="white">HackDalton</Heading>
