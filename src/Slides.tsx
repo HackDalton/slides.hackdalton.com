@@ -11,13 +11,13 @@ interface SlidesProps {
 }
 
 export default function Slides(props: SlidesProps) {
-	return <div className="grid">
+	return <ul>
 		{props.slides.map((slide, i) => {
-			return <div className="box has-text-centered" key={i}>
+			return <li>
 				<a href={slide.url}>
-					<h1 className="is-size-3">{slide.title}</h1>
+					{slide.title}
 				</a>
-			</div>
+			</li>
 		})}
-	</div>
+	</ul>
 }
